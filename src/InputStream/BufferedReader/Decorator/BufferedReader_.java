@@ -6,9 +6,6 @@ public class BufferedReader_ extends Reader_{
     public BufferedReader_(Reader_ reader_) {
         this.reader_ = reader_;
     }
-
-
-
     //不想修改方法，调用本身的方法
     public void readFile() {//封装一层
         reader_.readFile();
