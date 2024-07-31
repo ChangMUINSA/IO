@@ -6,6 +6,9 @@ import java.io.ObjectOutputStream;
 public class Intro {
     /**
      * 对象流 ObjectInputStream ObjectOutputStream
+     * 功能：提供了堆基本类型或对象类型 的 序列化和饭序列化的方法
+     * ObjectInputStream 提供反序列化功能
+     * ObjectOutputStream 提供序列化功能
      *
      * 能够将基本的数据类型 或者对象进行序列化 和反序列化操作
      *
@@ -16,8 +19,8 @@ public class Intro {
      * 序列化就是在保存数据时，保存数据的值和数据的类型
      * 反序列化就是在恢复数据时，恢复数据的值和数据类型
      * 需要让某个对象支持序列化机制，则必须让其类是可序列化的，该类必须实现两个借口之一
-     * Serializable //这是一个标记接口
-     * Externalizable
+     * Serializable //这是一个标记接口,没有方法
+     * Externalizable //该接口有方法需要实现，因此我们一般实现上面的接口
      */
 
 }
